@@ -37,8 +37,6 @@ jobs:
     - name: Run and test
       run: |
         python test.py
-    - name: GitHub Action for pylint
-      uses: cclauss/GitHub-Action-for-pylint@0.7.0
     - name: Run and test
       run: |
         pylint main.py
